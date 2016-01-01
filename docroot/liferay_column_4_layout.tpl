@@ -1,5 +1,8 @@
 <div class="my-layout" id="main-content" role="main">
 
+	<!-- 
+	Login user:	$user, $user.userId, $user.companyId, $user.contactId, $user.screenName, $user.emailAddress, $user.fer
+     -->
     <div class="portlet-layout row-fluid">
         <div class="portlet-column portlet-column-first span3" id="column-1">
             $processor.processColumn("column-1", "portlet-column-content portlet-column-content-first")
@@ -15,7 +18,8 @@
         
         <div class="portlet-column portlet-column-last span3" id="column-4">
             $processor.processColumn("column-4", "portlet-column-content portlet-column-content-last")
+            
         </div>
-    </div>
+    </div> 
 
 </div>
